@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-s Formulaire</title>
+    <link rel="stylesheet" href="/index/assets/style.inscription.css">
+</head>
+
+<body class="programme">
+    <header>
+        <div class="logo">
+            <img src="assets/img/img.logo.jpg" alt="logo">
+            <h1>BASIC-SPORT</h1>
+        </div>
+        <nav>
+            <a href="http://127.0.0.1:5500/index/index.accueil.html">Accueil</a>
+            <a href="http://127.0.0.1:5500/index/index.programme.html">Machine / Activité</a>
+            <a href="http://127.0.0.1:5500/index/index.horaire.html">Horaire</a>
+            <a href="http://127.0.0.1:5500/index/index.g-p.html">Galerie Photos</a>
+            <a href="#">Inscription</a>
+            <a href="http://127.0.0.1:5500/index/index.abo.html" class="abo">Abonnement</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulaire</h2>
+        <form class="form-inscription">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom">
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="tel">
+
+            <label for="objectif">Objectif :</label>
+            <select id="objectif" name="objectif">
+                <option value="">-- Choisissez un objectif --</option>
+                <option value="perte">Perte de poids</option>
+                <option value="prise">Prise de masse</option>
+                <option value="forme">Remise en forme</option>
+            </select>
+
+            <label for="motivation">Pourquoi vous inscrire ?</label>
+            <textarea id="motivation" name="motivation" rows="4"></textarea>
+
+            <button type="button" onclick="window.location.href='127.0.0.1:5500/Basic-sport%20Abonnement/index.html'">
+                S'inscrire
+            </button>
+        </form>
+        <div class="mobile-only">
+            <h3>Choisissez votre Abonnement</h3>
+            <div class="abos-options">
+                <button type="button" onclick="window.location.href='127.0.0.1:5500/Basic-sport%20Abonnement/index.html'">
+                3 Mois
+            </button>
+                <button type="button" onclick="window.location.href='127.0.0.1:5500/Basic-sport%20Abonnement/index.html'">
+                6 Mois
+            </button>
+                <button type="button" onclick="window.location.href='127.0.0.1:5500/Basic-sport%20Abonnement/index.html'">
+                1 An
+            </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <a href="http://127.0.0.1:5500/Basic-sport%20Abonnement/index.html#">
+                <h4>Nous Contacter</h4>
+            </a>
+            <div class="reseaux-sociaux">
+                <a href="facebook.jpg" target="_blank"><img src="assets/img/facebook.jpg" alt="Facebook"></a>
+                <a href="insta.jpg" target="_blank"><img src="assets/img/insta.jpg" alt="Instagram"></a>
+                <a href="twitter.jpg" target="_blank"><img src="assets/img/twitter.jpg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    </div>
